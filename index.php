@@ -27,7 +27,6 @@
         <!-- Portfolio Section -->
         <?php include_once './pages/portfolio.php';?>
 
-
         <!-- Services Section -->
         <?php include_once './pages/services.php';?>
 
