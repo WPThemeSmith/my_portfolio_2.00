@@ -4,61 +4,43 @@
 
 <body class="index-page">
 
-    <header>
-        <?php require_once './includes/header.php'; ?>
-    </header>
 
-  <main class="main">
+    <?php require_once './includes/header.php'; ?>
 
-    <!-- Hero Section -->
-    <section>
+    <main class="main">
+
+        <!-- Hero Section -->
         <?php include_once './includes/hero.php';?>
-    </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section>
+        <!-- About Section -->
         <?php include_once './pages/about.php';?>
-    </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section>
+        <!-- Stats Section -->
         <?php include_once './pages/stats.php';?>
-    </section><!-- /Stats Section -->
 
-    <!-- Skills Section -->
-    <section>
+        <!-- Skills Section -->
         <?php include_once './pages/skills.php';?>
-    </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section>
+        <!-- Resume Section -->
         <?php include_once './pages/resume.php';?>
-    </section><!-- /Resume Section -->
 
-    <!-- Portfolio Section -->
-    <section>
+        <!-- Portfolio Section -->
         <?php include_once './pages/portfolio.php';?>
-    </section><!-- /Portfolio Section -->
 
-    <!-- Services Section -->
-    <section>
+
+        <!-- Services Section -->
         <?php include_once './pages/services.php';?>
-    </section><!-- /Services Section -->
 
-    <!-- Testimonials Section -->
-    <section>
+        <!-- Testimonials Section -->
         <?php include_once './pages/testimonials.php';?>
-    </section><!-- /Testimonials Section -->
 
-    <!-- Contact Section -->
-    <section>
+        <!-- Contact Section -->
         <?php include_once './pages/contact-us.php';?>
-    </section><!-- /Contact Section -->
 
   </main>
 
-  <footer>
+    <!-- Footer Section -->
     <?php include_once './includes/footer.php';?>
-  </footer>
+
   
 </body>  
