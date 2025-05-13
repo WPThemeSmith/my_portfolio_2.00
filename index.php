@@ -16,42 +16,42 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section>
         <?php include_once './pages/about.php';?>
     </section><!-- /About Section -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
+    <section>
         <?php include_once './pages/stats.php';?>
     </section><!-- /Stats Section -->
 
     <!-- Skills Section -->
-    <section id="skills" class="skills section">
+    <section>
         <?php include_once './pages/skills.php';?>
     </section><!-- /Skills Section -->
 
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <section>
         <?php include_once './pages/resume.php';?>
     </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section>
         <?php include_once './pages/portfolio.php';?>
     </section><!-- /Portfolio Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section>
         <?php include_once './pages/services.php';?>
     </section><!-- /Services Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <section>
         <?php include_once './pages/testimonials.php';?>
     </section><!-- /Testimonials Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section>
         <?php include_once './pages/contact-us.php';?>
     </section><!-- /Contact Section -->
 
