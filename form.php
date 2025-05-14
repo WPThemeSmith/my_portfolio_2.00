@@ -10,6 +10,7 @@ if(empty($fullname) || ($email) || ($phone)){
     echo "You need to fill-up all the fields";
 }
 exit;
+
 echo "Name: $fullname <br>";
 echo "Email: $email <br>";
 echo "Phone: $phone <br>";
