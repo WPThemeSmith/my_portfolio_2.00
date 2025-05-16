@@ -6,10 +6,10 @@ $phone = $_POST["phone"];
 $subject = $_POST["subject"];
 $message =$_POST["message"];
 
-if(empty($fullname) || ($email) || ($phone)){
+if(empty($fullname) || empty($email) || empty($phone)) {
     echo "You need to fill-up all the fields";
+    exit;
 }
-exit;
 
 echo "Name: $fullname <br>";
 echo "Email: $email <br>";
